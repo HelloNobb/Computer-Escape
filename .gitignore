@@ -1,0 +1,34 @@
+# Corona SDK / Solar2D
+*.apk
+*.ipa
+build.properties
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 대용량 에셋 파일들 (GitHub 100MB 제한)
+# 포트폴리오에서는 코드만 보여주고, 실행은 README의 설명/스크린샷으로 대체
+image/
+sound/
+video/
+font/
+
+# 빌드 결과물
+AndroidResources/
+Images.xcassets/
+LaunchScreen.storyboardc/
+res/
+
+# 임시 파일
+*.tmp
+*.log
